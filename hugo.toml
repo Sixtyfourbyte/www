@@ -1,0 +1,113 @@
+baseURL = 'https://www.64byte.dev'
+locale = 'en-us'
+title = '64byte.dev'
+theme = "minimal-black"
+defaultContentLanguage = 'en'
+contentDir = 'content'
+[author]
+  name = "bz0qyz"
+  homepage = "https://github.com/bz0qyz"
+
+[params]
+brand = '64Byte'
+logo = 'img/64byte-logo-icon.png'
+favicon = 'favicon.svg'
+appleTouchIcon = 'apple-touch-icon.svg'
+
+[params.icons]
+  useFontAwesome = true
+  useDevicon = true
+
+[params.theme]
+    defaultTheme = "dark"
+
+  [params.hero]
+    badge = "DevOps, Infrastructure, Security, Privacy"
+    title = "bz0qyz"
+    role = "Senior Infrastructure and Security Professional"
+    summary = "Building reliable & secure technology infrastructure."
+    avatar = "img/avatar-stylized.png"  # Optional
+    location = 'Dallas, TX'
+  
+  [[params.social]]
+    label = "GitHub"
+    url = "https://github.com/sixtyfourbyte"
+    icon = "fa-brands fa-github"
+
+[params.home]
+  [[params.home.tech]]
+    label = "Python"
+    icon = "devicon-python-plain"
+
+  [[params.home.tech]]
+    label = "Docker"
+    icon = "devicon-docker-plain"
+
+  [[params.home.tech]]
+    label = "Kubernetes"
+    icon = "devicon-kubernetes-plain"
+  
+  [[params.home.tech]]
+    label = "Helm"
+    icon = "devicon-helm-plain"
+
+  [[params.home.tech]]
+    label = "Terraform"
+    icon = "devicon-terraform-plain"
+
+  [[params.home.tech]]
+    label = "ArgoCD"
+    icon = "devicon-argocd-plain"
+  
+  [[params.home.tech]]
+    label = "Bash"
+    icon = "devicon-bash-plain"
+
+  [[params.home.tech]]
+    label = "git"
+    icon = "devicon-git-plain"
+
+  [[params.home.tech]]
+    label = "github"
+    icon = "devicon-github-plain"
+
+[params.about.alt]
+  # Stats in profile card
+  [[params.about.alt.stats]]
+    value = "20+"
+    label = "Years in Tech"
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    style = "monokai"

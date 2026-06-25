@@ -1,0 +1,28 @@
+{{ if .IsNamedParams }}
+{{ $bodyWidth := "100" }}
+{{ $faIcon := "fa-exclamation-circle" }}
+
+<div class="callout-wrapper">
+
+  <div class="callout-box">
+    {{ if .Get "fa-icon" }}
+      {{ $bodyWidth = "90" }}
+    <div class="callout-icon" style="width: 10%;"><i class='fa {{ with .Get "fa-icon" }} {{ . | plainify }} {{ end }} {{ $faIcon }}'></i></div>
+    {{ end }}
+    <div class="callout-body" style="width: {{ $bodyWidth }}%; text-align: {{ .Get "align" }}">
+      {{ if .Get "title" }}
+      <div class="callout-title">{{ with .Get "title" }} {{ . | plainify }} {{ end }}</div>
+      {{ end }}
+      <p>
+      {{ .Inner|markdownify }}
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+
+{{ else }}
+
+{{ end }}
