@@ -111,3 +111,6 @@ appleTouchIcon = 'apple-touch-icon.svg'
     codeFences = true
     guessSyntax = true
     style = "monokai"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
