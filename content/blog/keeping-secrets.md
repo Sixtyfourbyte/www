@@ -1,21 +1,11 @@
----
-title: "keeping secrets"
-date: 2019-09-09T11:12:53-05:00
-author:
-  name: "Russ Cook"
-  email: "<bz0qyz@protonmail.com>"
-draft: false
-toc: true
-type:
-  - post
-  - posts
-images:
-tags:
-  - security
-  - passwords
-series:
-- Security 101
----
++++
+title = "keeping secrets"
+date = 2019-09-09T11:12:53-05:00
+author = "bz0qyz"
+draft = false
+tags = ["security", "passwords"]
+categories = ["security"]
++++
 # Passwords
 Spending any time online requires the use of passwords. Passwords are outdated and problematic and their days are numbered. The future is passwordless, but today we are still using them so let's talk about some best practices when creating and using passwords.
 
@@ -27,10 +17,13 @@ Passwords are bad because people have bad habits.
 * When we are forced to change passwords, we only change a small suffix or a number.
 * Many sites encourage bad passwords with outdated password requirements and lengths.
 
-{{< callout fa-icon="fa-key" title="Password vs. Passphrase" >}}
-* password: usually between 8-10 characters
+ 
+{{< alert type="tip" >}}
+Password vs. Passphrase
+* password: usually between 8-10 characters with no spaces.
 * passphrase: can be up to 128 characters in length and include spaces.
-{{< /callout >}}
+{{< /alert >}}
+
 
 
 ## Password Best Practices
@@ -57,7 +50,7 @@ When using a password manager, it is easy to create strong and unique passwords 
 
 Password managers can be used in a web browser and on a mobile device to store and retrieve passwords when they are needed.
 
-Read More: [multifactor authentication](/posts/multifactor-authentication/)
+Read More: [multifactor authentication](/blog/multifactor-authentication/)
 
 ### Recommended password managers
 

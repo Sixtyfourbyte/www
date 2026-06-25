@@ -1,17 +1,11 @@
----
-title: "lets go phishing"
-date: 2019-09-30T10:12:48-05:00
-author:
-  name: Russ Cook
-  email: rcook@64byte.com
-draft: false
-toc: true
-images:
-tags:
-  - security
-  - email
-  - privacy
----
++++
+title = "lets go phishing"
+date = 2019-09-30T10:12:48-05:00
+author = "bz0qyz"
+draft = false
+tags = ["security", "email", "privacy"]
+
++++
 # What is phishing?
 Phishing is a form of social engineering where a threat actor attempts to trick you into giving out sensitive information by posing as a trusted source. Most phishing attempts come in the form of an email message with an urgent request for you to take action by clicking on a link in the email.
 
@@ -22,9 +16,9 @@ There are 2 types of phishing that you should be aware of:
 1. Phishing: this is a generic attempt to trick a large number of people. These messages are sent to thousands, or even millions of users and usually are made to look like they came from an organization that most people have an account with already like a large bank or technology company like Microsoft, Apple, Facebook or Google.
 1. Spear Phishing: This is a targeted attach on a single individual or a small group. Spear phishing is more common in a workplace where the targeted individuals have access to information or data that the attacker is targeting. These attacks are far more convincing and effective at tricking their victims since they are using more specific information to craft their trap.
 
-{{< callout fa-icon="fa-exclamation-triangle" align="center" >}}
+{{< alert type="warning" >}}
 **ALL phishing attempts need their victim to feel a sense of URGENCY!**
-{{< /callout >}}
+{{< /alert >}}
 
 ## Beware of urgency
 Urgency is the primary weapon in a phishing attempt. When our minds are triggered into an emergency response mode, we tend to be less cautious and more likely to miss the red flags that would normally tip us off to their attempt to trick us.
@@ -32,7 +26,8 @@ Urgency is the primary weapon in a phishing attempt. When our minds are triggere
 Urgency can be communicated in several ways. Here are some examples:
 * Your bank has detected fraud
 * Your social media account needs to be "verified"
-* Your online account has been compromised and you need to change your password immediately.
+* Your online account has been compromised, and you need to change your password immediately.
+* There is a warrant for your arrest.
 
 
 ## Beware of hyperlinks
@@ -59,15 +54,33 @@ These parts of an email message can be crafted to say anything that will make yo
 
 
 ### Red flags
-<i class='fa fa-flag red'></i> When the email sent. Look at the time the message was sent, if it is overnight, this may be a red flag.
+Look out for the red flags of a phishing or scam attempt.
 
-<i class='fa fa-flag'></i> Does the message invoke urgency by threat or appeal to your nature to help someone or some cause?
+<ul class="red-flag-list">
+<li>
+The message is attempting to convey ugency.
+</li>
+<li>
+The message contains a phone number that you are being asked to call.
+</li>
+<li> 
+The message contains a hyperlink that you are being asked to click on to take action.
+</li>
+<li>
+The message contain spelling and grammatical errors.
+</li>
+<li>
+The message contain an attachment that you are not expecting.
+</li>
+<li>
+ The email was sent overnight or early morning.
+</li>
+</ul>
 
-<i class='fa fa-flag'></i> Does the message have a hyperlink that you are being asked to click on to take action?
-
-<i class='fa fa-flag'></i> Does the message contain spelling and grammatical errors?
-
-<i class='fa fa-flag'></i> Does the message contain an attachment that you are being asked to open?
-
+{{< alert type="danger" >}}
+If the message contains a phone number, DO NOT CALL IT. Lookup the phone number for the organization using reliable methods.
+{{< /alert >}}
 
 When in doubt, **verify the message is valid before taking any action**. You can verify the message by contacting the sender or logging into the site as you normally would without clicking on links in the email.
+
+

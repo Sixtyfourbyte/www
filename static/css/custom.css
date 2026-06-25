@@ -1,0 +1,10 @@
+ul.red-flag-list {
+    list-style: square outside url('/img/flag-mark-red-icon.png');
+}
+ul.red-flag-list li {
+    padding-left: 1em;
+}
+img.bullet {
+    text-align: left;
+    display: inline;
+}

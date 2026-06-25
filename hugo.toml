@@ -9,10 +9,11 @@ contentDir = 'content'
   homepage = "https://github.com/bz0qyz"
 
 [params]
-brand = '64Byte'
-logo = 'img/64byte-logo-icon.png'
-favicon = 'favicon.svg'
-appleTouchIcon = 'apple-touch-icon.svg'
+  brand = 'bz0qyz'
+  logo = 'img/64byte-logo-icon.png'
+  favicon = 'favicon.svg'
+  appleTouchIcon = 'apple-touch-icon.svg'
+  customCSS = ['css/custom.css']
 
 [params.icons]
   useFontAwesome = true
@@ -35,6 +36,9 @@ appleTouchIcon = 'apple-touch-icon.svg'
     icon = "fa-brands fa-github"
 
 [params.home]
+[[params.home.tech]]
+    label = "AWS"
+    icon = "devicon-amazonwebservices-plain"
   [[params.home.tech]]
     label = "Python"
     icon = "devicon-python-plain"
@@ -74,8 +78,53 @@ appleTouchIcon = 'apple-touch-icon.svg'
 [params.about.alt]
   # Stats in profile card
   [[params.about.alt.stats]]
-    value = "20+"
+    value = "25+"
     label = "Years in Tech"
+  [[params.about.alt.stats]]
+    value = "20+"
+    label = "Years with Linux"
+  [[params.about.alt.stats]]
+    value = "10+"
+    label = "Years Automation Coding"
+  [[params.about.alt.skills]]
+    label = "aws"
+    icon = "devicon-amazonwebservices-plain"
+  [[params.about.alt.skills]]
+    label = "Kubernetes"
+    icon = "devicon-kubernetes-plain"
+  [[params.about.alt.skills]]
+    label = "ArgoCD"
+    icon = "devicon-argocd-plain"
+  [[params.about.alt.skills]]
+    label = "Docker"
+    icon = "devicon-docker-plain"
+  [[params.about.alt.skills]]
+    label = "helm"
+    icon = "devicon-helm-plain"
+  [[params.about.alt.skills]]
+    label = "terraform"
+    icon = "devicon-terraform-plain"
+  [[params.about.alt.skills]]
+    label = "linux"
+    icon = "devicon-linux-plain"
+  [[params.about.alt.skills]]
+    label = "postgresql"
+    icon = "devicon-postgresql-plain"
+  [[params.about.alt.skills]]
+    label = "mariadb"
+    icon = "devicon-mariadb-plain"
+  [[params.about.alt.skills]]
+    label = "nginx"
+    icon = "devicon-nginx-plain"
+  [[params.about.alt.skills]]
+    label = "bash"
+    icon = "devicon-bash-plain"
+  [[params.about.alt.skills]]
+    label = "python"
+    icon = "devicon-python-plain"
+  
+
+
 
 
 [menu]

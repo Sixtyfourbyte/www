@@ -8,6 +8,7 @@ tags = ["smtp", "python"]
 repo = "https://github.com/bz0qyz/smtp_groker"
 featured = true
 +++
+## Sumary
 This is a small python script that will make testing and troubleshooting SMTP servers easy.
 Supported Configurations:
 - TLS/SSL Connections
@@ -15,6 +16,7 @@ Supported Configurations:
 - Authentication
 - Saving test profiles for later use
 
+## Usage
 Visit the project [repository](https://github.com/bz0qyz/smtp_groker) for usage details.
 
 

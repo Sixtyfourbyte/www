@@ -39,7 +39,14 @@
   {{ end }}
 {{ end }}
 
-<link rel="stylesheet" href="{{ "css/main.css" | relURL }}"> 
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+{{ range .Site.Params.customCSS -}}
+<link rel="stylesheet" href="{{ . | relURL }}">
+{{ end }}
+
+{{ range .Site.Params.customJS -}}
+<script type="text/javascript" src="{{ . | relURL }}"></script>
+{{- end }}
 
 {{ if .Site.Params.icons.useFontAwesome }}
   <link

@@ -8,6 +8,7 @@ tags = ["tls", "ssl", "python"]
 repo = "https://github.com/bz0qyz/soloSafe"
 featured = true
 +++
+## Sumary
 This is a small python script that generates self-signed TLS certificates.
 Features:
 - Full control over certificate metadata
@@ -15,4 +16,5 @@ Features:
 - Generate a self-signed root CA and sign the certificate
 - Output a PFX store file
 
+## Usage
 Visit the project [repository](https://github.com/bz0qyz/soloSafe) for usage details.

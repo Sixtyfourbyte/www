@@ -1,16 +1,10 @@
----
-title: "Protect Your Privacy"
-date: 2019-10-07T12:02:51-05:00
-author:
-  name: Russ Cook
-  email: rcook@64byte.com
-draft: false
-toc: true
-comments: false
-images:
-tags:
-  - privacy
----
++++
+title = "Protect Your Privacy"
+date = 2019-10-07T12:02:51-05:00
+author = "bz0qyz"
+draft = false
+tags = ["privacy", "haveibeenpwned"]
++++
 # Privacy Online
 the "not so" free internet
 

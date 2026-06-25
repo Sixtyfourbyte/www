@@ -1,22 +1,11 @@
----
-title: "multi-factor authentication"
-date: 2019-09-16T09:51:09-05:00
-author:
-  name: "Russ Cook"
-  email: "<rcook@64byte.com>"
-draft: false
-toc: true
-comments: false
-type:
-  - post
-  - posts
-images:
-tags:
-  - security
-  - passwords
-series:
-- Security 101
----
++++
+title = "multi-factor authentication"
+date = 2019-09-16T09:51:09-05:00
+author = "bz0qyz"
+draft = false
+tags = ["security", "passwords"]
+categories = ["security"]
++++
 
 # What is it?
 Traditionally we just use a combination of a user name and password to access a secure web site or service. With the current pace of malware, [phishing techniques](/posts/lets-go-phishing) and other methods used in identity theft, a more-secure method is needed.
