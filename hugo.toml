@@ -13,23 +13,32 @@ contentDir = 'content'
   logo = 'img/64byte-logo-icon.png'
   favicon = 'favicon.svg'
   appleTouchIcon = 'apple-touch-icon.svg'
-  customCSS = ['css/custom.css']
+  customCSS = ['css/custom.css', 'css/justifiedGallery.min.css']
+  customJS = ['js/justifiedGallery.js']
 
-[params.icons]
-  useFontAwesome = true
-  useDevicon = true
+  [params.icons]
+    useFontAwesome = true
+    useDevicon = true
 
-[params.theme]
-    defaultTheme = "dark"
+  [params.theme]
+    defaultTheme = "system"
 
-  [params.hero]
-    badge = "DevOps, Infrastructure, Security, Privacy"
-    title = "bz0qyz"
-    role = "Senior Infrastructure and Security Professional"
-    summary = "Building reliable & secure technology infrastructure."
-    avatar = "img/avatar-stylized.png"  # Optional
-    location = 'Dallas, TX'
-  
+[params.hero]
+  badge = "DevOps, Infrastructure, Security, Privacy"
+  title = "bz0qyz"
+  role = "Senior Infrastructure and Security Professional"
+  summary = "Building reliable & secure technology infrastructure."
+  avatar = "img/avatar-stylized.png"  # Optional
+  location = 'Dallas, TX'
+
+  # [params.hero.primary]
+  #   label = "View projects"
+  #   href = "/projects/"
+
+  # [params.hero.secondary]
+  #   label = "Read the blog"
+  #   href = "/blog/"
+
   [[params.social]]
     label = "GitHub"
     url = "https://github.com/sixtyfourbyte"
@@ -124,9 +133,6 @@ contentDir = 'content'
     icon = "devicon-python-plain"
   
 
-
-
-
 [menu]
   [[menu.main]]
     name = "Home"
@@ -146,7 +152,7 @@ contentDir = 'content'
   [[menu.main]]
     name = "Projects"
     url = "/projects/"
-    weight = 3
+    weight = 4
 
 [markup]
   [markup.tableOfContents]

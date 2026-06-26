@@ -45,7 +45,7 @@
 {{ end }}
 
 {{ range .Site.Params.customJS -}}
-<script type="text/javascript" src="{{ . | relURL }}"></script>
+<script type="text/javascript" src="{{ . | relURL }}" defer></script>
 {{- end }}
 
 {{ if .Site.Params.icons.useFontAwesome }}
@@ -68,11 +68,6 @@
   href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
 />
 
-<!-- Justified Gallery (Vanilla) -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/justified-gallery@3.8.2/dist/css/justifiedGallery.min.css"
-/>
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
