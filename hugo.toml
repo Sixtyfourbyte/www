@@ -49,6 +49,10 @@ contentDir = 'content'
     label = "AWS"
     icon = "devicon-amazonwebservices-plain"
   [[params.home.tech]]
+    label = "Linux"
+    icon = "devicon-linux-plain"
+
+  [[params.home.tech]]
     label = "Python"
     icon = "devicon-python-plain"
 
